@@ -12,6 +12,12 @@ const studentSchema = new mongoose.Schema({
   },
   lastname: {
     type: String
+  },
+  yellowAvertisment: {
+    type: Number
+  },
+  readAvertisment: {
+    type: Number
   }
 });
 
